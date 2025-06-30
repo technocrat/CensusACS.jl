@@ -1,4 +1,4 @@
-# AmCommSurvey.jl
+# CensusACS.jl
 
 A Julia package for retrieving data from the U.S. Census Bureau's American Community Survey (ACS) API. This is based on the R `tidycensus` package by Kyle Walker (https://github.com/walkerke/tidycensus/tree/master)
 
@@ -18,20 +18,20 @@ A Julia package for retrieving data from the U.S. Census Bureau's American Commu
 
 ```julia
 using Pkg
-Pkg.add("AmCommSurvey")
+Pkg.add("CensusACS")
 ```
 
 Or for development version:
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/technocrat/AmCommSurvey.jl")
+Pkg.add(url="https://github.com/technocrat/CensusACS.jl")
 ```
 
 ## Usage
 
 ```julia
-using AmCommSurvey
+using CensusACS
 
 # Get total population estimates for all states (5-year ACS)
 df = get_acs(

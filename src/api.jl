@@ -71,7 +71,7 @@ function fetch_census_data(;
     
     headers = [
         "Accept" => "application/json",
-        "User-Agent" => "AmCommSurvey.jl/0.1.0"
+        "User-Agent" => "CensusACS.jl/0.1.0"
     ]
     
     # Try up to 3 times with exponential backoff
