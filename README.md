@@ -10,17 +10,22 @@ A Julia package for retrieving data from the U.S. Census Bureau's American Commu
 - Robust error handling and retries
 - Returns data in DataFrame format
 - Separate functions for estimates and margin of error values
-
-## Planned enhancements
-
 - Fetch the list of available variables
-- TIGER shapefiles
+- Download 2023 state and county 500k shapefiles
+
 
 ## Installation
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/yourusername/ACS.jl")
+Pkg.add("ACS")
+```
+
+Or for development version:
+
+```julia
+using Pkg
+Pkg.add(url="https://github.com/technocrat/ACS.jl")
 ```
 
 ## Usage
@@ -93,6 +98,25 @@ ENV["CENSUS_API_KEY"] = "your-api-key-here"
 - 1-year ACS data is only available for geographies with populations of 65,000 or greater
 - 3-year ACS data was only produced from 2007-2013 and is available for geographies with populations of 20,000 or greater
 - The regular 1-year ACS for 2020 was not released due to COVID-19 impacts on data collection
+
+## Documentation
+
+Complete documentation is available and can be built locally:
+
+```bash
+# Build documentation
+cd docs
+./build_docs.sh
+```
+
+Or manually:
+
+```bash
+cd docs
+julia --project=. make.jl
+```
+
+The generated documentation will be in `docs/build/index.html`.
 
 ## Contributing
 

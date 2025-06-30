@@ -1,12 +1,27 @@
 name = "ACS"
 uuid = "5cdc1628-db7d-4f1a-9a42-d0831b0d3a5e"
-# Module version constant
+authors = ["Richard Careaga <public@careaga.net>"]
 version = "0.1.0"
 
 [deps]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 NamedTupleTools = "d9ec5142-1e00-5aa0-9d6a-321866360f50"
 StructArrays = "09ab397b-f2b6-538f-b94a-2f83cf4a842a"
+
+[compat]
+julia = "1.6"
+DataFrames = "1"
+HTTP = "1"
+JSON3 = "1"
+NamedTupleTools = "0.14"
+StructArrays = "0.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
