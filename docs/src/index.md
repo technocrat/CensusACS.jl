@@ -38,7 +38,7 @@ df_moe = get_acs_moe(
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/yourusername/ACS.jl")
+Pkg.add("ACS")
 ```
 
 ## Package Features

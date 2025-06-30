@@ -15,7 +15,7 @@ We welcome contributions to ACS.jl! Here's how you can help:
 1. Fork the repository
 2. Clone your fork:
    ```bash
-   git clone https://github.com/yourusername/ACS.jl.git
+   git clone https://github.com/technocrat/ACS.jl.git
    ```
 3. Add the original repository as upstream:
    ```bash
