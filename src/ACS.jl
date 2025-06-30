@@ -21,5 +21,6 @@ include(joinpath(@__DIR__, "utils.jl"))
 include(joinpath(@__DIR__, "api.jl"))
 include(joinpath(@__DIR__, "estimates.jl"))
 include(joinpath(@__DIR__, "moe.jl"))
-
+include(joinpath(@__DIR__, "helpers.jl"))
+include(joinpath(@__DIR__, "get_tiger_shapefile"))
 end # module 
