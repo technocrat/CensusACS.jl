@@ -1,18 +1,18 @@
 using Test
-using ACS
+using AmCommSurvey
 
-@testset "ACS.jl Package Tests" begin
+@testset "AmCommSurvey.jl Package Tests" begin
     
     @testset "Basic Package Loading" begin
-        @test isa(ACS, Module)
-        @test isdefined(ACS, :get_acs)
-        @test isdefined(ACS, :get_acs_moe)
-        @test isdefined(ACS, :get_acs1)
-        @test isdefined(ACS, :get_acs3)
-        @test isdefined(ACS, :get_acs5)
-        @test isdefined(ACS, :get_acs_moe1)
-        @test isdefined(ACS, :get_acs_moe3)
-        @test isdefined(ACS, :get_acs_moe5)
+        @test isa(AmCommSurvey, Module)
+        @test isdefined(AmCommSurvey, :get_acs)
+        @test isdefined(AmCommSurvey, :get_acs_moe)
+        @test isdefined(AmCommSurvey, :get_acs1)
+        @test isdefined(AmCommSurvey, :get_acs3)
+        @test isdefined(AmCommSurvey, :get_acs5)
+        @test isdefined(AmCommSurvey, :get_acs_moe1)
+        @test isdefined(AmCommSurvey, :get_acs_moe3)
+        @test isdefined(AmCommSurvey, :get_acs_moe5)
     end
     
     @testset "Main Function Availability" begin
