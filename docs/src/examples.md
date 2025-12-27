@@ -5,7 +5,7 @@
 ### Getting Population Estimates
 
 ```julia
-using ACS
+using CensusACS
 
 # Get total population for all states using 5-year estimates
 df = get_acs(

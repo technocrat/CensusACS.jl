@@ -1,10 +1,10 @@
-# ACS.jl Documentation
+# CensusACS.jl Documentation
 
-Welcome to the documentation for ACS.jl, a Julia package for retrieving data from the U.S. Census Bureau's American Community Survey (ACS) API.
+Welcome to the documentation for CensusACS.jl, a Julia package for retrieving data from the U.S. Census Bureau's American Community Survey (ACS) API.
 
 ## Overview
 
-ACS.jl provides a simple and robust interface to access American Community Survey data through the Census Bureau's API. The package supports:
+CensusACS.jl provides a simple and robust interface to access American Community Survey data through the Census Bureau's API. The package supports:
 
 - Data retrieval from 1-year, 3-year, and 5-year ACS estimates
 - Various geographic levels (state, county, tract, block group)
@@ -16,7 +16,7 @@ ACS.jl provides a simple and robust interface to access American Community Surve
 ## Quick Start
 
 ```julia
-using ACS
+using CensusACS
 
 # Set your Census API key
 ENV["CENSUS_API_KEY"] = "your-api-key-here"
@@ -38,7 +38,7 @@ df_moe = get_acs_moe(
 
 ```julia
 using Pkg
-Pkg.add("ACS")
+Pkg.add("CensusACS")
 ```
 
 ## Package Features
