@@ -1,2 +1,6 @@
 .specstory/
 
+
+# Documentation build artifacts
+docs/build/
+docs/Manifest.toml

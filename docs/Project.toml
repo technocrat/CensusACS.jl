@@ -1,3 +1,8 @@
 [deps]
-CensusACS = "5cdc1628-db7d-4f1a-9a42-d0831b0d3a5e"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+MaterialDocs = "10bdffc8-969c-4dd4-83f3-742518eccd6b"
+CensusACS = "5cdc1628-db7d-4f1a-9a42-d0831b0d3a5e"
+
+[compat]
+Documenter = "1"
+MaterialDocs = "0.2"
